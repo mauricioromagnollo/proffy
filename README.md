@@ -51,6 +51,7 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 ### **Website ([React] + [TypeScript])**
 
 - **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+- **[Axios]**
 
   \* Veja o arquivo <kbd>[package.json](./sources/web/package.json)</kbd>
 
@@ -365,6 +366,7 @@ Feito com ❤️ por <a href="https://www.linkedin.com/in/mauricioromagnoli/">Ma
 [Commitlint]: https://github.com/conventional-changelog/commitlint
 [VSCode_Plugin_SQLite]: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
 [asdf]: https://github.com/asdf-vm/asdf
+[Axios]: https://github.com/axios/axios
 
 <!-- Badges -->
 
