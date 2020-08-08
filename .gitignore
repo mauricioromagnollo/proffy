@@ -26,7 +26,7 @@ yarn-error.log*
 
 # mobile
 node_modules/**/*
-.expo/*
+./sources/mobile/.expo/*
 npm-debug.*
 *.jks
 *.p8
