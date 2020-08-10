@@ -1,8 +1,6 @@
 <div align=center>
 
-![](./layout/background/doc-background.png)
-
-<!-- (Montagem no Photoshop) Print Screen do Projeto: Web, Mobile e Tablet -->
+![BANNER](./layouts/banner/export/banner.png)
 
 ![BADGE_LICENSE] ![BADGE_TYPESCRIPT] ![BADGE_WEB_REACT] ![BADGE_MOBILE_REACT_NATIVE] ![BADGE_SERVER_NODEJS] ![BADGE_OPEN_SOURCE] ![BADGE_NODE_VERSION] ![BADGE_NPM_VERSION] ![BADGE_OPEN_ISSUES] ![BADGE_CLOSED_ISSUES] ![BADGE_STARS] ![BADGE_FORKS]
 
