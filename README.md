@@ -14,6 +14,26 @@ Projeto Open Source desenvolvido na #NextLevelWeek da [Rocketseat], utilizando *
 
 </div>
 
+---
+
+### **ÍNDICE**
+
+<!-- - **[PREVIEW](#preview)** -->
+- **[:rocket: OBJETIVO](#:rocket:-objetivo)**
+- **[:memo: DESENVOLVIMENTO](#:memo:-desenvolvimento)**
+- **[:computer: TECNOLOGIAS](#:computer:-tecnologias)**
+- **[:wrench: CONFIGURAÇÃO DO AMBIENTE](#:wrench:-configuração-do-ambiente)**
+- **[:wine_glass: COMO UTILIZAR](#:wine_glass:-como-utilizar)**
+  - [Utilizando o Web](#utilizando-o-web)
+  - [Utilizando o Server](#utilizando-o-server)
+  - [Utilizando o Mobile](#utilizando-o-mobile)
+- **[:octocat: COMO CONTRIBUIR](#:octocat:-como-contribuir)**
+- **[:star2: AGRADECIMENTOS](#:star2:-agradecimentos)**
+- **[:books: REFERÊNCIAS](#:books:-referências)**
+- **[:page_with_curl: LICENÇA](#:page_with_curl:-licença)**
+
+---
+
 <!-- ## **:movie_camera: PREVIEW**
 
 ... [.GIF] Utilizando o projeto -->
@@ -22,27 +42,22 @@ Projeto Open Source desenvolvido na #NextLevelWeek da [Rocketseat], utilizando *
 
 O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conectar alunos e professores para realizarem aulas online.
 
-## **:heavy_check_mark: REQUISÍTOS**
+<!-- ...CASOS DE USO -->
 
-- ### **Funcionais**
-  - O professor poderá criar uma aula;
-  - O aluno poderá criar uma conexão com o professor;
-  - O aluno poderá avaliar o professor através de um sistema de Likes e Deslikes;
-  - Deverá ser possível listar as aulas filtrando por: matéria, dia da semana e horário;
-  - A interface do usuário deve mostrar o total de conexões que foram realizadas;
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-- ### **Não-Funcionais**
-  - O sistema deverá se comunicar com o banco de dados SQLite;
-  - O sistema deverá ser implementado na linguagem JavaScript com o TypeScript (Web: React, Mobile: React Native e Server: Node);
-  - O sistema Web deverá ser responsivo, adaptando sua interface para Mobile, Tablets/iPads e Desktop;
+<br>
 
-<!-- - ### **Regras de Negócio**
+## **:memo: DESENVOLVIMENTO**
 
-...
+  - **[✅ Análise de Requisitos](./docs/notes/requisitos.md)**
+  - **[🏗️ Arquitetura do Repositório](./docs/notes/arquitetura-repo.md)**
+  - **[💾 Modelagem dos Dados](./docs/notes/database-model.md)**
+  - **[📦 Packages](./docs/notes/packages.md)
 
-## **:walking: JORNADA DO USUÁRIO**
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-...  -->
+<br>
 
 ## **:computer: TECNOLOGIAS**
 
@@ -51,7 +66,7 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 - **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 - **[Axios]**
 
-  \* Veja o arquivo <kbd>[package.json](./sources/web/package.json)</kbd>
+\* Veja o arquivo <kbd>[package.json](./packages/web/package.json)</kbd> do projeto Web.
 
 ### **Server ([NodeJS] + [TypeScript])**
 
@@ -59,7 +74,16 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 - **[DotEnv]**
 - **[Knex]**
 
-  \* Veja o arquivo <kbd>[package.json](./sources/server/package.json)</kbd>
+\* Veja o arquivo <kbd>[package.json](./packages/server/package.json)</kbd> do projeto Server.
+
+### **Mobile ([Expo] + [TypeScript])**
+
+- **[Axios]**
+- **[Expo Google Fonts](https://github.com/expo/google-fonts)**
+- **[React Navigation](https://reactnavigation.org/)**
+- **[Expo Async Storage](https://docs.expo.io/versions/latest/sdk/async-storage/)**
+
+\* Veja o arquivo <kbd>[package.json](./packages/mobile/package.json)</kbd> do projeto Mobile.
 
 ### **Utilitários**
 
@@ -71,124 +95,20 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 - **Fontes:** **[Google Fonts - Archivo](https://fonts.google.com/specimen/Archivo?query=archivo) | [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins)**
 - **Emojis:** **[Emojipedia](https://emojipedia.org/) | [Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 - **Wireframe Editor:** **[Whimsical](https://whimsical.com/)**
-- **Anotações/Checklist:** **[Notion](https://www.notion.so/)**
+- **Anotações / Checklist:** **[Notion](https://www.notion.so/)**
+- **Ícones:** **[Ionicons](https://ionicons.com/) | [Feather Icons](https://feathericons.com/)**
+
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
+
+<br>
 
 ### **:wrench: CONFIGURAÇÃO DO AMBIENTE**
 
-**Instalando o [NodeJS]**
-
-Você pode instalar o Node de algumas formas diferentes:
-
-- Baixando no site do <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd>;
-
-Se estiver utilizando o **Linux**, você pode optar por instalar o Node através do gerenciador de versões [asdf] para facilitar o processo de mudança de versão do Node, quando for necessário. 
-
-```sh
-$ cd ~
-$ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.5
-$ echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
-$ echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
-
-# Se tiver utilizando o zsh:
-$ echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
-$ echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
-```
-
-Reinicie o terminal e agora digite os comandos para instalar o Node:
-
-```sh
-$ asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-$ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-$ asdf install nodejs 12.18.0
-$ asdf global nodejs 12.18.0
-```
-
-Verificando a sua instalação do Node:
-
-```sh
-$ node -v
-# v12.18.0
-
-$ npm -v
-# 6.14.4
-```
-
-**Instalando o [Yarn]**
-
-Se estiver utilizando o **Linux**, você pode optar por instalar o Yarn através do [asdf]:
-
-```sh
-$ asdf plugin-add yarn
-$ asdf install yarn 1.22.4
-$ asdf global yarn 1.22.4 
-```
-
-Verificando a sua instalação do Yarn:
-
-```sh
-$ yarn -v
-# 1.22.4
-```
-
-**Instalando as dependências do React e do Expo de forma global:**
-
-```sh
-$ npm install create-react-app -g
-$ npm install -g expo-cli 
-```
-
-## **:memo: ETAPAS DE DESENVOLVIMENTO**
-
-<!-- ### **Modelagem dos Dados** -->
-
-
-### **Arquitetura do Repositório**
-
-O projeto inteiro foi armazenado neste repositório (monorepo) em 3 diretórios diferentes:
-
-- **`./sources/server`** &rarr; Diretório do **back-end** sendo uma API REST desenvolvida utilizando [TypeScript] + [NodeJS].
-- **`./sources/web`** &rarr; Diretório do **front-end** web, desenvolvido utilizando [TypeScript] + [React].
-- **`./sources/mobile`** &rarr; Diretório do **mobile** desenvolvido utilizando [TypeScript] + [React Native][ReactNative].
-
-### **Desenvolvimento do projeto Web**
-
-**Criando o Projeto com React e TypeScript:**
-
-```sh
-$ yarn create react-app web --template typescript
-```
-
-**Instalando as dependências do React:**
-
-```sh
-$ yarn add react-router-dom
-$ yarn add -D @types/react-router-dom
-``` 
-
-### **Desenvolvimento do Server**
-
-**Iniciando o arquivo `package.json` do server:**
-
-```sh
-$ yarn init -y
-```
-
-**Instalando as dependências do Server NodeJS:**
-
-```sh
-$ yarn add express dotenv knex sqlite3 cors
-$ yarn add -D typescript ts-node-dev @types/express @types/dotenv @types/cors
-```
-
-**Adicionando o arquivo de configurações do TypeScript:**
-
-```sh
-$ yarn tsc --init
-``` 
-
-<!-- ### **Desenvolvimento do projeto Mobile** 
 ...
--->
+
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
+
+<br>
 
 ## **:wine_glass: COMO UTILIZAR**
 
@@ -196,7 +116,7 @@ $ yarn tsc --init
 
 ```sh
 # Abrindo o diretório Web no terminal:
-$ cd ./sources/web
+$ cd ./packages/web
 
 # Instalando as dependências do package.json:
 $ yarn
@@ -205,20 +125,20 @@ $ yarn
 $ yarn start
 ``` 
 
-> O projeto será aberto no `http://localhost:3000`;
+> O projeto será aberto em `http://localhost:3000`;
 
 ### **Utilizando o Server**
 
 Você precisa renomear o arquivo `.env-example` para `.env` e inserir as informações que condizem com o seu **host**:
 
 ```sh
-$ cd ./sources/server
+$ cd ./packages/server
 $ mv .env-example .env
 ```
 
 ```sh
 # Abrindo o diretório do Server no terminal:
-$ cd ./sources/server
+$ cd ./packages/server
 
 # Instalando as dependências contidas no package.json:
 $ yarn
@@ -233,61 +153,33 @@ $ yarn knex:migrate
 $ yarn knex:migrate:rollback
 ```
 
-<!-- ### Utilizando o Mobile
+### **Utilizando o Mobile**
 
 Instale o aplicativo <kbd>[Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en)</kbd> no seu smartphone.
 
 ```sh
 # Abrindo o terminal no diretório do mobile:
-$ cd ./sources/mobile
+$ cd ./packages/mobile
 
 # Executando o mobile no modo de desenvolvimento:
-$ npm run start
+$ yarn start
 ```
 
 Agora, abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode.
 
-> Se tiver algum problema para executar o aplicativo nesse modo, tente desabilitar o firewall da sua máquina.
+> *Se tiver algum problema para executar o aplicativo nesse modo, tente desabilitar o firewall da sua máquina.*
 
-Se tiver algum problema com as fontes, utilize o comando:
-```sh
-$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
-```
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-**\* Lembre de inserir no arquivo `.env` o IP exato que foi gerado pelo seu mobile após utilizar o comando `npm run start`.** -->
+<br>
 
 ## **:octocat: COMO CONTRIBUIR**
   
-  - Verifique as **[Issues](https://github.com/x0n4d0/proffy/issues)** que estão abertas e se já não existe alguma com a sua feature;
-  - Abra uma **Issue** com o nome e descrição da sua feature e assine com o seu usuário informando que irá fazê-la;
-  - Faça um **[fork](https://help.github.com/pt/github/getting-started-with-github/fork-a-repo)** do repositório;
-  - Instale as dependências do [Commitlint] utilizando o comando: `yarn` ou `npm install` na raíz do repositório;
-  - Entre no sua página do GitHub e faça um **clone** do seu **fork**;
-  - Crie uma *branch* com o nome da sua feature: `git chechout -b feat/minhaFeature`;
-  - Faça as alterações necessárias no código ou na documentação;
-  - Instale as dependências do *commitlint* na raíz do projeto para a verificação dos commits: `npm install` ou `yarn`;
-  - Faça o *commit* das suas alterações seguindo as [convenções de commit](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/), adicione na descrição o id da sua Issue em parênteses e lembre de fechar a sua Issue com o id no rodapé do commit:
+Siga as instruções do arquivo [como contribuir](./docs/notes/como-contribuir.md) para contribuir corretamente.
 
-  ```
-    <tipo>(escopo opcional): <descrição> (#x)
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-    [corpo do commit]
-
-    Close #x
-  ```
-  Exemplo:
-  ```sh
-    feat: adicionado componente para tal coisa (#52)
-
-    Foi adicionado um componente para tal coisa com o objetivo de melhorar tal coisa, deixando o projeto de tal maneira.
-
-    Close #52
-  ```
-  - Faça um *push* para a sua *branch*: `git push origin feat/minhaFeature`;
-  - Agora é só abrir um *pull request* no repositório que você fez o *fork* e assim que acontecer o *merge* sua Issue será fechada e suas alterações irão fazer parte do projeto;
-  - Depois que o *merge* da sua pull request for feito, você pode deletar a sua *branch*.
-
-  \* **Obrigado por contribuir!** ❤️ :facepunch: :blush:
+<br>
 
 ## **:star2: AGRADECIMENTOS**
 
@@ -326,9 +218,9 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 </div>
 
-<!-- ## **🤝 COLABORADORES**
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-... -->
+<br>
 
 ## **:books: REFERÊNCIAS**
 
@@ -336,11 +228,18 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 - **[ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)**
 - **[TypeScript](https://www.typescriptlang.org/docs/home.html)**
 - **[dotenv & Typescript](https://blog.morizyun.com/javascript/library-typescript-dotenv-environment-variable.html)**
-- **[Next Level Week - Configurando o Ambiente](https://www.notion.so/Configurando-Ambiente-NLW-98a471ad3cb6448284b8ceed31c45767)**
+
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
+
+<br>
 
 ## **:page_with_curl: LICENÇA**
 
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
+
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
+
+<br>
 
 <h3 align="center">
 Feito com ❤️ por <a href="https://www.linkedin.com/in/mauricioromagnoli/">Maurício Romagnoli</a>
@@ -358,6 +257,7 @@ Feito com ❤️ por <a href="https://www.linkedin.com/in/mauricioromagnoli/">Ma
 [NodeJS]: https://nodejs.org/en/
 [Yarn]: https://yarnpkg.com/
 [ReactNative]: https://reactnative.dev/
+[Expo]: https://expo.io/
 [Express]: https://expressjs.com/
 [DotEnv]: https://github.com/motdotla/dotenv
 [Knex]: http://knexjs.org/
