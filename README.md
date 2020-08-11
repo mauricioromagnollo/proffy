@@ -22,7 +22,6 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 
 <!-- ...CASOS DE USO -->
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 <!-- ## **:movie_camera: PREVIEW**
 
@@ -32,7 +31,6 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 
 </div>
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
  -->
 
 ## **:memo: DESENVOLVIMENTO**
@@ -42,7 +40,6 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
   - **[💾 Modelagem dos Dados](./docs/notes/database-model.md)**
   - **[📦 Packages](./docs/notes/packages.md)**
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 
 ## **:computer: TECNOLOGIAS**
@@ -84,14 +81,12 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 - **Anotações / Checklist:** **[Notion](https://www.notion.so/)**
 - **Ícones:** **[Ionicons](https://ionicons.com/) | [Feather Icons](https://feathericons.com/)**
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 
 ## **:wrench: CONFIGURAÇÃO DO AMBIENTE**
 
 Veja o [arquivo de configuração do ambiente](./docs/notes/config-ambiente.md) para saber como configurar corretamente a sua máquina para utilizar o projeto.
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 
 ## **:wine_glass: COMO UTILIZAR**
@@ -153,14 +148,12 @@ Agora, abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode.
 
 > *Se tiver algum problema para executar o aplicativo nesse modo, tente desabilitar o firewall da sua máquina.*
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 
 ## **:octocat: COMO CONTRIBUIR**
   
 Siga as instruções do arquivo [como contribuir](./docs/notes/como-contribuir.md) para contribuir corretamente.
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 
 ## **:star2: AGRADECIMENTOS**
@@ -200,7 +193,6 @@ Siga as instruções do arquivo [como contribuir](./docs/notes/como-contribuir.m
 
 </div>
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 
 ## **:books: REFERÊNCIAS**
@@ -210,14 +202,12 @@ Siga as instruções do arquivo [como contribuir](./docs/notes/como-contribuir.m
 - **[TypeScript](https://www.typescriptlang.org/docs/home.html)**
 - **[dotenv & Typescript](https://blog.morizyun.com/javascript/library-typescript-dotenv-environment-variable.html)**
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 
 ## **:page_with_curl: LICENÇA**
 
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
-<kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
 
 <h3 align="center">
