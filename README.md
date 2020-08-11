@@ -8,35 +8,13 @@
 
 Projeto Open Source desenvolvido na #NextLevelWeek da [Rocketseat], utilizando **TypeScript**, **React**, **React Native** e **Node**. 
 
-</h3>
-
 <!-- ### 🌐 <kbd>http://website.com</kbd> <br> 📥 <kbd>http://download.com</kbd>  -->
 
+</h3>
+
+![PRINTS](./layouts/banner/export/print.png)
+
 </div>
-
----
-
-### **ÍNDICE**
-
-<!-- - **[PREVIEW](#preview)** -->
-- **[:rocket: OBJETIVO](#:rocket:-objetivo)**
-- **[:memo: DESENVOLVIMENTO](#:memo:-desenvolvimento)**
-- **[:computer: TECNOLOGIAS](#:computer:-tecnologias)**
-- **[:wrench: CONFIGURAÇÃO DO AMBIENTE](#:wrench:-configuração-do-ambiente)**
-- **[:wine_glass: COMO UTILIZAR](#:wine_glass:-como-utilizar)**
-  - [Utilizando o Web](#utilizando-o-web)
-  - [Utilizando o Server](#utilizando-o-server)
-  - [Utilizando o Mobile](#utilizando-o-mobile)
-- **[:octocat: COMO CONTRIBUIR](#:octocat:-como-contribuir)**
-- **[:star2: AGRADECIMENTOS](#:star2:-agradecimentos)**
-- **[:books: REFERÊNCIAS](#:books:-referências)**
-- **[:page_with_curl: LICENÇA](#:page_with_curl:-licença)**
-
----
-
-<!-- ## **:movie_camera: PREVIEW**
-
-... [.GIF] Utilizando o projeto -->
 
 ## **:rocket: OBJETIVO**
 
@@ -48,12 +26,24 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 
 <br>
 
+<!-- ## **:movie_camera: PREVIEW**
+
+<div align=center>
+
+![.GIF]()
+
+</div>
+
+<kbd>[&uarr; ÍNDICE](#índice)</kbd>
+
+<br> -->
+
 ## **:memo: DESENVOLVIMENTO**
 
   - **[✅ Análise de Requisitos](./docs/notes/requisitos.md)**
   - **[🏗️ Arquitetura do Repositório](./docs/notes/arquitetura-repo.md)**
   - **[💾 Modelagem dos Dados](./docs/notes/database-model.md)**
-  - **[📦 Packages](./docs/notes/packages.md)
+  - **[📦 Packages](./docs/notes/packages.md)**
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
@@ -104,7 +94,7 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 
 ### **:wrench: CONFIGURAÇÃO DO AMBIENTE**
 
-...
+Veja o [arquivo de configuração do ambiente](./docs/notes/config-ambiente.md) para saber como configurar corretamente a sua máquina para utilizar o projeto.
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
