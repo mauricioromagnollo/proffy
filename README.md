@@ -24,8 +24,6 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
-
 <!-- ## **:movie_camera: PREVIEW**
 
 <div align=center>
@@ -35,8 +33,7 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 </div>
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
-
-<br> -->
+ -->
 
 ## **:memo: DESENVOLVIMENTO**
 
@@ -47,7 +44,6 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
 
 ## **:computer: TECNOLOGIAS**
 
@@ -90,7 +86,6 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
 
 ## **:wrench: CONFIGURAÇÃO DO AMBIENTE**
 
@@ -98,7 +93,6 @@ Veja o [arquivo de configuração do ambiente](./docs/notes/config-ambiente.md) 
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
 
 ## **:wine_glass: COMO UTILIZAR**
 
@@ -161,7 +155,6 @@ Agora, abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode.
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
 
 ## **:octocat: COMO CONTRIBUIR**
   
@@ -169,7 +162,6 @@ Siga as instruções do arquivo [como contribuir](./docs/notes/como-contribuir.m
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
 
 ## **:star2: AGRADECIMENTOS**
 
@@ -210,7 +202,6 @@ Siga as instruções do arquivo [como contribuir](./docs/notes/como-contribuir.m
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
 
 ## **:books: REFERÊNCIAS**
 
@@ -221,7 +212,6 @@ Siga as instruções do arquivo [como contribuir](./docs/notes/como-contribuir.m
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
 
 ## **:page_with_curl: LICENÇA**
 
@@ -229,7 +219,6 @@ Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações
 
 <kbd>[&uarr; ÍNDICE](#índice)</kbd>
 
-<br>
 
 <h3 align="center">
 Feito com ❤️ por <a href="https://www.linkedin.com/in/mauricioromagnoli/">Maurício Romagnoli</a>
