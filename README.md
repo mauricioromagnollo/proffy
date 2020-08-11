@@ -92,7 +92,7 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 
 <br>
 
-### **:wrench: CONFIGURAÇÃO DO AMBIENTE**
+## **:wrench: CONFIGURAÇÃO DO AMBIENTE**
 
 Veja o [arquivo de configuração do ambiente](./docs/notes/config-ambiente.md) para saber como configurar corretamente a sua máquina para utilizar o projeto.
 
