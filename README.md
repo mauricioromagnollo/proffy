@@ -2,7 +2,7 @@
 
 ![BANNER](./layouts/banner/export/banner.png)
 
-![BADGE_LICENSE] ![BADGE_TYPESCRIPT] ![BADGE_WEB_REACT] ![BADGE_MOBILE_REACT_NATIVE] ![BADGE_SERVER_NODEJS] ![BADGE_OPEN_SOURCE] ![BADGE_NODE_VERSION] ![BADGE_NPM_VERSION] ![BADGE_OPEN_ISSUES] ![BADGE_CLOSED_ISSUES] ![BADGE_STARS] ![BADGE_FORKS]
+![BADGE_LICENSE] ![BADGE_WEB_REACT] ![BADGE_MOBILE_REACT_NATIVE] ![BADGE_SERVER_NODEJS] ![BADGE_OPEN_SOURCE] ![BADGE_NODE_VERSION] ![BADGE_NPM_VERSION] ![BADGE_OPEN_ISSUES] ![BADGE_CLOSED_ISSUES] ![BADGE_STARS] ![BADGE_FORKS]
 
 <h3>
 
@@ -238,7 +238,6 @@ Feito com ❤️ por <a href="https://www.linkedin.com/in/mauricioromagnoli/">Ma
 <!-- Badges -->
 
 [BADGE_LICENSE]: https://img.shields.io/github/license/x0n4d0/proffy
-[BADGE_TYPESCRIPT]: https://badges.frapsoft.com/typescript/code/typescript.png?v=101
 [BADGE_WEB_REACT]: https://img.shields.io/badge/web-react-blue
 [BADGE_MOBILE_REACT_NATIVE]: https://img.shields.io/badge/mobile-react%20native-blueviolet
 [BADGE_SERVER_NODEJS]: https://img.shields.io/badge/server-nodejs-important
